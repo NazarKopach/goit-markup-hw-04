@@ -417,7 +417,7 @@ button {
     gap: 120px;
     background-color: #2e2f42;
     max-width: 1440px;
-    margin-right: auto;
+    margin-right:120px;
     margin-left: auto;
     height: 312px;
     align-items: baseline;
@@ -448,7 +448,6 @@ button {
     flex-direction:column;
     width: 264px;
     margin-left: 154px;
-    margin-right: 120px;
 }
 
 .footer-icon-link {
