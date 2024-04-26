@@ -485,3 +485,8 @@ button {
 .footer-list-ikon{
     fill:#f4f4fd;
 }
+
+.footer-icon-item{
+    width:40px;
+    height:40px;
+}
