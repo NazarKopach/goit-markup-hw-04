@@ -459,6 +459,14 @@ button {
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+    transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus{
+    background-color: #31d0aa;
 }
 
 .footer-list-item {
@@ -472,4 +480,8 @@ button {
     justify-content: center;
     gap: 16px;
     width: 208px;
+}
+
+.footer-list-ikon{
+    fill:#f4f4fd;
 }
