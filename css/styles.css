@@ -92,7 +92,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     padding: 24px 0;
     display:block;
     position: relative;
@@ -101,7 +101,7 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover::after{
+.nav-link::after{
     display:block;
     content:'';
     position: absolute;
@@ -209,6 +209,10 @@ button {
     width: calc((100% - 72)/4s);
 }
 
+.team-proffesion{
+    padding: 24px 0
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -271,7 +275,7 @@ button {
 }
 
 .team-container{
-   
+    padding: 32px 0
 }
 
 .team-list{
@@ -288,7 +292,6 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
 }
 
 .team-title-name {
