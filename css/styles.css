@@ -353,6 +353,10 @@ button {
     background-color: #31d0aa;
 }
 
+.team-icon-conteiner{
+    padding: 32px 0;
+}
+
 /* Portfolio */
 
 .portfolio-title {
