@@ -450,8 +450,9 @@ button {
     display:flex;
     background-color: #2e2f42;
     align-items: baseline;
-    margin-right: 120px;
-    margin-left: 120px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .logo-footer {
@@ -489,8 +490,7 @@ button {
 .container-logo{
     display:flex;
     flex-direction:column;
-    width: 264px;
-    margin-left: 154px;
+    margin-left: 120px;
     margin-right: 120px;
 }
 
