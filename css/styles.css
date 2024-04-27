@@ -275,10 +275,6 @@ button {
     height: 780px;
 }
 
-.team-container{
-    padding: 32px 0;
-}
-
 .team-list{
     display:flex;
     gap:24px;
@@ -351,10 +347,6 @@ button {
 .team-icon-link:hover,
 .team-icon-link:focus {
     background-color: #31d0aa;
-}
-
-.team-icon-conteiner{
-    padding: 32px 0;
 }
 
 /* Portfolio */
