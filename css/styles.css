@@ -35,6 +35,7 @@ margin: 0;
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-right: 120px;
 }
 
 /* header */
@@ -403,10 +404,6 @@ button {
 }
 
 /* Footer */
-
-.footer-space{
-    margin-right: 120px;
-}
 
 .footer-info{
     font-weight: 400;
