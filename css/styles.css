@@ -469,10 +469,6 @@ button {
     background-color: #31d0aa;
 }
 
-.footer-list-item {
-    width: calc((100% - 48)/4);
-}
-
 .footer-icon-list {
     display: flex;
     flex-direction: row;
