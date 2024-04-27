@@ -310,6 +310,10 @@ button {
     text-align: center;
 }
 
+.team-proffesion{
+    padding: 32px 0;
+}
+
 .team-list-item{
     background-color: #ffffff;
     width: calc((100% - 72)/4);
@@ -317,12 +321,13 @@ button {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    transition-property: transform;
-    transition-duration: 300ms;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-list-item:hover{
-    transform:scale(1.1);
+    transform:background-color;
 }
 
 .team-icon-list {
@@ -346,7 +351,11 @@ button {
 
 .team-icon-link:hover,
 .team-icon-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf; 
+}
+
+.tech-list-ikon{
+    fill:#f4f4fd;
 }
 
 /* Portfolio */
