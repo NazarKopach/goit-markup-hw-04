@@ -445,11 +445,14 @@ button {
     margin-bottom: 16px;
 }
 
+.footer-media{
+    margin-right: 120px;
+}
+
 .container-logo{
     display:flex;
     flex-direction:column;
     width: 264px;
-    margin-right: 120px;
     margin-left: 154px;
    
 }
