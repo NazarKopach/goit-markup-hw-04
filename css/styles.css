@@ -92,7 +92,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #404bbf;
     padding: 24px 0;
     display:block;
     position: relative;
@@ -447,7 +447,7 @@ button {
 }
 
 .footer{
-    display:flex;
+   
     background-color: #2e2f42;
     align-items: baseline;
     margin-right: 120px;
