@@ -448,12 +448,10 @@ button {
 
 .footer{
     display:flex;
-    gap: 120px;
     background-color: #2e2f42;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1440px;
-    
+    align-items: baseline;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .logo-part-footer{
