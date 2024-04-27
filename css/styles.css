@@ -490,7 +490,7 @@ button {
 .container-logo{
     display:flex;
     flex-direction:column;
-    margin-left: 120px;
+    padding-left: 120px;
     margin-right: 120px;
 }
 
