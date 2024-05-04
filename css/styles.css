@@ -101,6 +101,10 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-karent{
+    color: #404bbf;
+}
+
 .nav-karent::after{
     display:block;
     content:'';
@@ -110,6 +114,7 @@ img{
     left: 0;
     height: 4px;
     border-radius: 2px;
+    color:#404bbf;
     background-color: #404bbf;
 }
 
