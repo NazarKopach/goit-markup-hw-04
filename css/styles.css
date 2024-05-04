@@ -92,7 +92,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2e2f42;
     padding: 24px 0;
     display:block;
     position: relative;
@@ -101,7 +101,7 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link::after{
+.nav-karent::after{
     display:block;
     content:'';
     position: absolute;
@@ -278,7 +278,7 @@ button {
 .team-list{
     display:flex;
     gap:24px;
-    margin: 72px auto 120px;
+    margin: 72px auto;
 }
 
 .team-title {
@@ -490,7 +490,7 @@ button {
 .container-logo{
     display:flex;
     flex-direction:column;
-    padding-left: 120px;
+    padding-left: 154px;
     margin-right: 120px;
 }
 
@@ -528,8 +528,4 @@ button {
 .footer-icon-item{
     width:40px;
     height:40px;
-}
-
-.footer-media{
-    margin-right: 120px;
 }
