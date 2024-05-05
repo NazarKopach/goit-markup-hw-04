@@ -101,7 +101,7 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-karent{
+.nav-current{
     color: #404bbf;
 }
 
@@ -313,6 +313,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .team-proffesion{
@@ -335,7 +336,6 @@ button {
     align-items:center;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
 }
 
 .team-icon-link {
@@ -435,11 +435,16 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-portfolio:hover .portfolio-overlay-text{
+.portfolio-item:hover .portfolio-overlay-text{
     transform: translatey(0);
 }
 
 /* Footer */
+
+.footer-main{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
 
 .footer-info{
     font-weight: 400;
@@ -448,16 +453,12 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .footer{
     display:flex;
-    background-color: #2e2f42;
     align-items: baseline;
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .logo-footer {
@@ -480,7 +481,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    padding-top: 100px;
 }
 
 .footer-media-text{
@@ -495,7 +495,6 @@ button {
 .container-logo{
     display:flex;
     flex-direction:column;
-    padding-left: 154px;
     margin-right: 120px;
 }
 
