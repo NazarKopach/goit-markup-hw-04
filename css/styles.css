@@ -105,7 +105,7 @@ img{
     color: #404bbf;
 }
 
-.nav-karent::after{
+.nav-current::after{
     display:block;
     content:'';
     position: absolute;
